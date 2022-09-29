@@ -1,0 +1,128 @@
+body {
+    background-image: url('./img/bg.png');
+    background-size: cover;
+}
+
+ul {
+    width: 100%;
+    margin: 2px 0 0 250px;
+    list-style: none;
+    display: flex;
+}
+
+.image {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.liNav {
+    width: 185px;
+    margin: 10px;
+    display: block;
+    padding: 22px 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.liNav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size:medium;
+}
+
+.liNav a:hover{
+    color: green;
+    font-size: 16px;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+ol {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    margin-left: 0;
+}
+
+.navli {
+    margin-right: 10px;
+}
+
+.navli a {
+    text-decoration: none;
+    color: black;
+}
+
+.nava:hover{
+    color: blueviolet;
+}
+
+h1 {
+    margin-left: 136px;
+}
+
+p {
+    margin-left: 136px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    border: 2px solid black;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.box-img {
+    width: 200;
+    height: 200px;
+    margin: 20px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.album1 {
+    background-image: url('./img/album1.jpeg');
+}
+.album2 {
+    background-image: url('./img/album2.jpg');
+}
+.album3 {
+    background-image: url('./img/album3.jpg');
+}
+.album4 {
+    background-image: url('./img/album4.jpg');
+}
+
+.box h2{
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+.para1{
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+}
+.para2{
+    margin-left: 20px;
+    color: rgb(112, 17, 17);
+    margin-top: -0.5rem;
+    font-weight: bold;
+}
+.para3{
+    margin-left: 20px;
+    color: green;
+    margin-top: -0.5rem;
+    font-weight: bold;
+}
