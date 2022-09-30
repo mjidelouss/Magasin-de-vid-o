@@ -91,7 +91,7 @@ p {
 
 .box:hover {
     transform: scale(1.2);
-    background: rgb(218, 133, 133);
+    background: rgb(197, 232, 229);
     box-shadow: 2px 2px 2px #000;
 }
 
