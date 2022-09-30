@@ -4,7 +4,7 @@ body {
 }
 
 ul {
-    width: 100%;
+    width: 1000px;
     margin: 2px 0 0 250px;
     list-style: none;
     display: flex;
@@ -43,7 +43,7 @@ ul {
 }
 
 ol {
-    width: 100%;
+    width: 1000px;
     list-style: none;
     display: flex;
     margin-left: 0;
@@ -63,16 +63,19 @@ ol {
 }
 
 h1 {
-    margin-left: 136px;
+    display: flex;
+    margin-left: 150px;
 }
 
 p {
-    margin-left: 136px;
+    display: flex;
+    margin-left: 150px;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
+    margin-left: 150px;
 }
 
 .box {
