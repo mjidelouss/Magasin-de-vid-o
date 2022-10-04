@@ -5,15 +5,13 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 0px 550px 0px 0px;
   align-items: center;
 }
 
 ul {
-  margin: 2px 0 0 35px;
+  margin: 2px 30% 0 35px;
   list-style: none;
   display: flex;
-  width: 50%;
   justify-content: space-between;
 }
 
@@ -23,20 +21,20 @@ ul {
   margin-top: 5px;
   margin-left: 10px;
 }
-
-.liNav a {
-  text-decoration: none;
-  color: black;
+.liNav {
   font-weight: bold;
   font-size: medium;
   padding: 10px;
   border-radius: 5px;
   border: 2px solid black;
+  margin: 5px;
 }
-
-.liNav a:hover {
+.liNav a {
+  text-decoration: none;
+  color: black;
+}
+.liNav:hover {
   background: rgb(132, 215, 132);
-  font-size: 16px;
 }
 
 ol {
@@ -71,8 +69,7 @@ p {
 
 .container {
   display: flex;
-  justify-content: flex-start;
-  margin-left: 150px;
+  margin-left: 140px;
 }
 
 .box {
@@ -86,7 +83,7 @@ p {
 
 .box:hover {
   transform: scale(1.2);
-  background: rgb(197, 232, 229);
+  background: rgb(54, 222, 154);
   box-shadow: 2px 2px 2px #000;
 }
 
